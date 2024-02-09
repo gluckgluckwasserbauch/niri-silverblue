@@ -18,8 +18,9 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos:  - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-39/yalter-niri-fedora-39.repo
+    repos: https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-39/yalter-niri-fedora-39.repo
     install:
+       - niri
        - waybar
     remove:
       - firefox # default firefox removed in favor of flatpak
