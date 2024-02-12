@@ -23,7 +23,7 @@ modules:
     install:
       - niri
       - waybar
-      - rofi-wayland
+      #- rofi-wayland
       - wl-clipboard
       - mako
       - swaybg
