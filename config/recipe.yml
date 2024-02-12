@@ -27,7 +27,7 @@ modules:
       - wl-clipboard
       - mako
       - swaybg
-      - swaylock
+      #- swaylock #removed because no display input? test
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
