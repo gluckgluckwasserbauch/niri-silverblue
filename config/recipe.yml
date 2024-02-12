@@ -25,8 +25,9 @@ modules:
       - waybar
       - wofi
       - wl-clipboard
-      - dunst
+      - mako
       - swaybg
+      - swaylock
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
