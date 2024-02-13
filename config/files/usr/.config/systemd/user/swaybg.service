@@ -1,9 +1,11 @@
 # Replace the default wallpaper.png with your custom one if you want
-[Unit]
-PartOf=graphical-session.target
-After=graphical-session.target
-Requisite=graphical-session.target
+# commented out because test
 
-[Service]
-ExecStart=/usr/bin/swaybg -m fill -i "%h/Pictures/wallpaper.jpg"
-Restart=on-failure
+# [Unit]
+# PartOf=graphical-session.target
+# After=graphical-session.target
+# Requisite=graphical-session.target
+
+# [Service]
+# ExecStart=/usr/bin/swaybg -m fill -i "%h/Pictures/wallpaper.jpg"
+# Restart=on-failure
