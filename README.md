@@ -1,4 +1,8 @@
-# niri-silverblue
+# Do not use!!!
+
+Niri, the Wayland compositor/ WM, on top of Fedora Atomic Gnome. Provides a comfortable out-of-the-box experience. Just install it and enjoy a working desktop inspired by Gnome with PaperWM.
+
+# Text from the template
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
